@@ -51,10 +51,6 @@
 }
 
 @media screen and (min-width:2000px) {
-  .app__menuitem-dash {
-    width: 150px;
-  }
-
   .app__specialMenu-menu_img {
     width: 500px;
   }
@@ -72,7 +68,7 @@
   }
 
   .app__menuitem-dash {
-    width: 200px;
+    max-width: 80px;
   }
 }
 

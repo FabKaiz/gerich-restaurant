@@ -21,7 +21,7 @@
 }
 
 .app__menuitem-dash {
-  width: 119px;
+  width: 90px;
   height: 1px;
   background: #FAFAFA;
   margin: 0px 32px;
@@ -36,10 +36,4 @@
 .app__menuitem-right_content {
   display: flex;
   align-items: center;
-}
-
-@media screen and (min-width:2000px) {
-  .app__menuitem-dash {
-    width: 170px;
-  }
 }

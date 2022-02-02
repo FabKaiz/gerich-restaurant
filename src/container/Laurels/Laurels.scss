@@ -59,6 +59,15 @@
   }
 }
 
+@media screen and (max-width: 1650px) {
+  .app__laurels_awards-logo {
+    top: 30px;
+    left: 30px;
+    width: 7vw;
+    height: 7vw;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .app__laurels_awards-logo {
     right: 63px ;
