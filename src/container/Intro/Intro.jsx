@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { images, meal } from '../../constants';
+import { meal } from '../../constants';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs'
 import './Intro.scss';
 
