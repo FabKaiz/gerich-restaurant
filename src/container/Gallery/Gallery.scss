@@ -116,9 +116,13 @@
 }
 
 @media screen and (max-width: 850px) {
-  
+  .app__galery {
+    padding: 4rem 0 4rem 4rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
-  
+  .app__galery {
+    padding: 4rem 0 4rem 2rem;
+  }
 }
