@@ -125,4 +125,16 @@
   .app__galery {
     padding: 4rem 0 4rem 2rem;
   }
+
+  .app__galery-content {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .app__galery-images_card {
+    min-width: 240px;
+    height: 350px;
+  }
 }
