@@ -1,0 +1,72 @@
+.app__newsletter {
+  z-index: 2;
+  padding: 2rem 4rem;
+  border: 1px solid #dcca8727;
+  background: var(--color-black)
+}
+
+.app__newsletter-heading {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p:last-child {
+    color: #ffffffb6;
+  }
+}
+
+.app__newsletter-input {
+  flex-direction: row;
+  margin-top: 3rem;
+
+  input {
+    width: 620px;
+    border: 1px solid #F5EFDB;
+    border-radius: 0px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: white;
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+  }
+
+  button {
+    width: max-content;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+.app__newsletter {
+  padding: 6rem 6rem;
+}
+  
+.app__newsletter-input input {
+  font-size: 1.5rem;
+}
+}
+
+@media screen and (max-width: 990px) {
+.app__newsletter-input {
+  flex-direction: column;
+  width: 100%;
+
+  input {
+    margin: 0 0 2rem 0;
+    width: 90%;
+  }
+}
+}
+
+@media screen and (max-width: 650px) {
+  .app__newsletter {
+    padding: 2rem 0;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+}
