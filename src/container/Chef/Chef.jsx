@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { images } from '../../constants';
-import {  SubHeading } from '../../components';
-import './Chef.scss';
+import { images } from "../../constants";
+import { SubHeading } from "../../components";
+import "./Chef.scss";
 
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
@@ -14,7 +14,6 @@ const Chef = () => (
       <h1 className="headtext__cormorant">What we believe in</h1>
 
       <div className="app__chef-content">
-
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote" />
           <p className="p__opensans">
@@ -27,7 +26,6 @@ const Chef = () => (
           Nulla scelerisque scelerisque congue ac consequat, aliquam molestie
           lectus eu. Congue iaculis integer curabitur semper sit nunc.
         </p>
-
       </div>
 
       <div className="app__chef-sign">

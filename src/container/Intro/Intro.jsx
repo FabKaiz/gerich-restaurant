@@ -10,7 +10,6 @@ const Intro = () => {
 
   const handleVideo = () => {
     setPlayVideo((prevPlayVideo) => !prevPlayVideo)
-
     playVideo ? vidRef.current.pause() : vidRef.current.play();
   }
   
