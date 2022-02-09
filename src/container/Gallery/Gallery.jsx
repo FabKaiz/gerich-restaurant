@@ -1,5 +1,9 @@
 import React from "react";
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+import {
+  BsInstagram,
+  BsArrowLeftShort,
+  BsArrowRightShort,
+} from "react-icons/bs";
 
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
@@ -18,11 +22,9 @@ const Gallery = () => {
   const scroll = (direction) => {
     const { current } = scrollRef;
 
-    if (direction === "left") {
-      current.scrollLeft -= 300;
-    } else {
-      current.scrollLeft += 300;
-    }
+    direction === "left"
+      ? (current.scrollLeft -= 300)
+      : (current.scrollLeft += 300);
   };
 
   return (
@@ -42,7 +44,10 @@ const Gallery = () => {
       <div className="app__galery-images">
         <div className="app__galery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
-            <div className="app__galery-images_card flex__center" key={`gallery_image-${index + 1}`}>
+            <div
+              className="app__galery-images_card flex__center"
+              key={`gallery_image-${index + 1}`}
+            >
               <img src={image} alt="gallery food" />
               <BsInstagram className="gallery__image-icon" />
             </div>
